@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Harsh Mane — Full-Stack Software Engineer. Portfolio showcasing projects, skills, education and certifications." />
+  <meta name="author" content="Harsh Mane" />
+  <meta name="theme-color" content="#0a0e1a" />
+  <title>Harsh Mane · Full-Stack Software Engineer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>" />
+</head>
+<body>
+  <!-- ============ HEADER / NAV ============ -->
+  <header>
+    <nav class="navbar" aria-label="Primary">
+      <div class="nav-inner">
+        <a href="index.html" class="brand" aria-label="Harsh Mane home">
+          <span class="brand-mark">HM</span>
+          Harsh<span>.dev</span>
+        </a>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="certificates.html">Certificates</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="nav-cta"><a href="assets/Harsh-Mane-Resume.pdf" class="btn btn-primary" download>Resume</a></li>
+        </ul>
+
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <!-- ============ HERO ============ -->
+    <section class="hero container" id="home">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="hero-status">
+            <span class="status-dot" aria-hidden="true"></span>
+            Available for new opportunities
+          </span>
+
+          <h1>
+            Hi, I'm <span class="text-gradient">Harsh Mane</span><br />
+            I build for the web.
+          </h1>
+
+          <p class="hero-role">
+            I'm a <span class="typed-text" data-words='["Full-Stack Developer","Problem Solver","UI Engineer","Open-Source Contributor"]'></span><span class="cursor" aria-hidden="true">&nbsp;</span>
+          </p>
+
+          <p class="hero-desc">
+            A passionate software engineer who loves crafting fast, accessible
+            and beautiful web applications. I turn complex problems into elegant,
+            production-ready solutions.
+          </p>
+
+          <div class="hero-actions">
+            <a href="projects.html" class="btn btn-primary btn-lg">
+              View My Work
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="assets/Harsh-Mane-Resume.pdf" class="btn btn-outline btn-lg" download>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
+              Download Resume
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <div class="num">3+</div>
+              <div class="label">Years Coding</div>
+            </div>
+            <div>
+              <div class="num">25+</div>
+              <div class="label">Projects Built</div>
+            </div>
+            <div>
+              <div class="num">12+</div>
+              <div class="label">Technologies</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="avatar-ring" aria-hidden="true">
+            <div class="avatar-inner">
+              <span class="avatar-emoji">👨‍💻</span>
+            </div>
+          </div>
+          <div class="floating-card fc-1"><span class="fc-icon">⚡</span> Fast &amp; Optimized</div>
+          <div class="floating-card fc-2"><span class="fc-icon">🎨</span> Clean UI/UX</div>
+          <div class="floating-card fc-3"><span class="fc-icon">♿</span> Accessible</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HIGHLIGHTS ============ -->
+    <section class="section" aria-labelledby="what-i-do">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">What I Do</span>
+          <h2 class="section-title" id="what-i-do">Engineering across the stack</h2>
+          <p class="section-subtitle">From pixel-perfect interfaces to robust APIs, I deliver end-to-end.</p>
+        </div>
+
+        <div class="values-grid">
+          <article class="card value-card reveal" data-delay="1">
+            <div class="v-icon" aria-hidden="true">🖥️</div>
+            <h4>Frontend Development</h4>
+            <p>Responsive, accessible interfaces with semantic HTML, modern CSS and vanilla JavaScript that perform on every device.</p>
+          </article>
+          <article class="card value-card reveal" data-delay="2">
+            <div class="v-icon" aria-hidden="true">🛠️</div>
+            <h4>Backend &amp; APIs</h4>
+            <p>Designing RESTful services, data models and authentication flows with Node.js, Express and relational databases.</p>
+          </article>
+          <article class="card value-card reveal" data-delay="3">
+            <div class="v-icon" aria-hidden="true">🚀</div>
+            <h4>Performance &amp; DevOps</h4>
+            <p>Optimising load times, automating deployments and shipping reliably with Git, CI workflows and cloud hosting.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED PROJECTS PREVIEW ============ -->
+<section class="section" style="padding-top:0" aria-labelledby="featured">
+
+  <div class="container">
+
+    <div class="section-head reveal">
+      <span class="eyebrow">Selected Work</span>
+      <h2 class="section-title" id="featured">Featured Projects</h2>
+      <p class="section-subtitle">
+        Some of my best academic and hackathon projects showcasing AI,
+        databases and software development.
+      </p>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+
+      <article class="card project-card reveal" data-delay="1">
+
+        <div class="project-thumb p-grad-1" aria-hidden="true">
+          🏕️
+          <span class="project-badge">Hackathon</span>
+        </div>
+
+        <div class="project-body">
+
+          <h3>SETU – AI Lost &amp; Found System</h3>
+
+          <p>
+            Developed during the Claude Impact Lab Hackathon,
+            SETU is an AI-powered platform for the Trimbakeshwar
+            Kumbh Mela that helps reconnect missing people and
+            belongings using intelligent matching and multilingual support.
+          </p>
+
+          <ul class="tech-list">
+            <li>React</li>
+            <li>Node.js</li>
+            <li>AI</li>
+            <li>Cloud</li>
+          </ul>
+
+          <div class="project-links">
+            <a href="projects.html">View details →</a>
+          </div>
+
+        </div>
+
+      </article>
+
+      <!-- Project 2 -->
+
+      <article class="card project-card reveal" data-delay="2">
+
+        <div class="project-thumb p-grad-2" aria-hidden="true">
+          📚
+          <span class="project-badge">Python</span>
+        </div>
+
+        <div class="project-body">
+
+          <h3>StudyIQ – Smart Assignment Tracker</h3>
+
+          <p>
+            A Python + Streamlit application featuring email OTP login,
+            AI-powered assignment prioritization, file uploads,
+            deadline tracking and a built-in Google Gemini assistant.
+          </p>
+
+          <ul class="tech-list">
+            <li>Python</li>
+            <li>Streamlit</li>
+            <li>SQLite</li>
+            <li>Gemini API</li>
+          </ul>
+
+          <div class="project-links">
+            <a href="projects.html">View details →</a>
+          </div>
+
+        </div>
+
+      </article>
+
+      <!-- Project 3 -->
+
+      <article class="card project-card reveal" data-delay="3">
+
+        <div class="project-thumb p-grad-3" aria-hidden="true">
+          ✈️
+          <span class="project-badge">C#</span>
+        </div>
+
+        <div class="project-body">
+
+          <h3>Chainsaw Travels</h3>
+
+          <p>
+            A Chainsaw Man-themed airline reservation system built
+            with C# and SQL Server featuring complete flight,
+            passenger and ticket management with CRUD operations.
+          </p>
+
+          <ul class="tech-list">
+            <li>C#</li>
+            <li>.NET</li>
+            <li>SQL Server</li>
+            <li>Windows Forms</li>
+          </ul>
+
+          <div class="project-links">
+            <a href="projects.html">View details →</a>
+          </div>
+
+        </div>
+
+      </article>
+
+    </div>
+
+    <div style="text-align:center; margin-top:44px" class="reveal">
+      <a href="projects.html" class="btn btn-outline btn-lg">
+        Browse All Projects
+      </a>
+    </div>
+
+  </div>
+
+</section>
+
+    <!-- ============ CTA ============ -->
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <h2>Let's build something great together</h2>
+          <p>Have a project in mind or just want to say hello? My inbox is always open.</p>
+          <div class="cta-actions">
+            <a href="contact.html" class="btn btn-primary btn-lg">Get in touch</a>
+            <a href="about.html" class="btn btn-outline btn-lg">More about me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <span class="brand-mark">HM</span>
+            Harsh<span>.dev</span>
+          </a>
+          <p>Full-stack software engineer building accessible, performant web experiences from concept to deployment.</p>
+        </div>
+
+        <div>
+          <h5>Navigate</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>More</h5>
+          <ul class="footer-links">
+            <li><a href="education.html">Education</a></li>
+            <li><a href="certificates.html">Certificates</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="assets/Harsh-Mane-Resume.pdf" download>Resume</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span class="footer-year">2026</span> Harsh Mane. All rights reserved.</p>
+        <div class="socials">
+          <a href="https://github.com" class="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.7.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0C18.3 4.5 19.3 4.8 19.3 4.8c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6a11.5 11.5 0 0 0 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>
+          </a>
+          <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33 0-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+          </a>
+          <a href="https://twitter.com" class="social-link" aria-label="X (Twitter)" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.41l-5.8-7.58-6.64 7.58H.46l8.6-9.83L0 1.15h7.6l5.24 6.93 6.06-6.93zm-1.29 19.5h2.04L6.48 3.24H4.3L17.61 20.65z"/></svg>
+          </a>
+          <a href="mailto:harshmanecol2108@gmail.com" class="social-link" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
